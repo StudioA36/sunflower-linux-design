@@ -5,7 +5,7 @@ paginate: true
 ---
 
 # Finding Your Way Around Linux
-### Unit 2 · File systems · 30 minutes
+### Unit 2 · File systems · Day 1 · 30 minutes
 
 **Objective:** Navigate the Linux directory tree using `pwd`, `ls`, and `cd`.
 
