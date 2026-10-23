@@ -4,8 +4,9 @@ A General Assembly hiring task: a Detailed Design and sample micro lesson for a 
 
 ## What's here
 
-- **Detailed Design**: units, learning objectives, sequence, tools, and assessments (coming soon)
-- **Micro lesson**: one objective taught in slides with instructor notes (coming soon)
+- [Detailed Design](detailed-design.md): units, learning objectives, sequence, tools, and assessments for the 12-hour course
+- [Micro lesson](micro-lesson.md): Unit 2, Objective 1, taught in five slides with instructor notes and sandbox setup steps
+- **Review history:** see the closed pull request for how the micro lesson was reviewed and revised
 
 ## Design approach
 
