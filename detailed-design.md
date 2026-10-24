@@ -124,6 +124,12 @@ Learners work a short ticket queue as Sunflower IT support. One ticket each cove
 - A command reference sheet and troubleshooting checklist for learners
 - A facilitator guide with timings, demo scripts and common errors
 
+## Validation plan
+
+- **Design sign-off:** Sunflower stakeholders review this Detailed Design before build starts
+- **Pilot review:** walk one built lesson through with Sunflower stakeholders and an instructor before full rollout
+- **After delivery:** capstone pass rates and a 30-day check-in on whether learners are using the skills on the job
+
 ## To confirm in discovery
 
 - Learners' current roles and what they'll do with Linux after the course
