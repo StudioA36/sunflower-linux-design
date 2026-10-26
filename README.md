@@ -24,4 +24,4 @@ The course keeps the business outcomes from the High Level Design and sets succe
 
 ## Format
 
-The micro lesson is delivered in markdown so it can be reviewed and revised through pull requests. It's written to be taught directly or built into slides by a designer. Visual design samples: [Shawn's Portfolio](https://www.studioa36.com)
+The micro lesson is delivered in markdown so it can be reviewed and revised through pull requests. It's written to be taught directly or built into slides by a designer. Multimedia design samples: [Shawn's Portfolio](https://www.studioa36.com)
