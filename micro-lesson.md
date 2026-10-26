@@ -31,9 +31,9 @@
 
 **Say:**
 - "Imagine walking into an office building blindfolded. Your first two questions are: where am I, and what's in this room? Linux has a command for each, plus one to move between rooms. That's all this lesson is."
-- Tie it to the job: "When a ticket says 'the report file is missing,' this is how you go look for it."
+- Tie it to the job: "When a ticket says 'the report file is missing,' this is how you'll look for it."
 
-**Watch for:** nervous learners. Say early that typos are normal and nothing they do in the sandbox can break anything real.
+**Watch for:** nervous learners. Say early, that typos are normal and nothing they do in the sandbox will break anything.
 
 ---
 
@@ -62,7 +62,7 @@
 
 **Check for understanding:** "What's the path to the log folder?" (Answer: `/var/log`)
 
-**Common confusion:** learners think "home" means the root. Point out that home is one folder down from root, and each person has their own folder inside it.
+**Common confusion:** learners often think "home" means the root. Point out that home is one folder down from root, and each person has their own folder inside it.
 
 ---
 
