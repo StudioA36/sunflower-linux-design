@@ -4,11 +4,10 @@ A General Assembly hiring task: a Detailed Design and sample micro lesson for a 
 
 ## What's here
 
-- [Detailed Design](detailed-design.md): units, learning objectives, sequence, tools, and assessments for the 12-hour course
-- [Micro lesson](micro-lesson.md): Unit 2, Objective 1, with a run of show, instructor notes, common errors, and sandbox setup
-- **Review history:** see the closed pull requests for how the micro lesson was tested, reviewed, and revised
+- [Detailed Design](detailed-design.md): Units, Learning Objectives, Sequence, Tools, and Assessments for the 12-hour course
+- [Micro lesson](micro-lesson.md): Unit 2, Objective 1, with a Run of Show, Instructor Notes, Common Errors, and Sandbox Setup
 
-## How this project would run
+## How This Project Would Run
 
 | Step | Where it lives |
 | --- | --- |
