@@ -13,34 +13,34 @@ A 12-hour, instructor-led Linux course that takes 25 Sunflower employees from ne
 | Environment | Browser-based Linux sandbox per learner, prepared by the delivery team (no installs needed) |
 | Business outcomes | Shell scripting and basic automation; package management; working with local and remote file systems; creating, starting and stopping services |
 
-**Working persona:** Maria, four years in customer support, comfortable with email, spreadsheets and ticketing, has never used a terminal. After the course she supports Linux servers in an entry-level IT support role, connecting remotely from her laptop.
+**Working persona:** Maria, four years in customer support, comfortable with email, spreadsheets, and ticketing, has never used a terminal. After completing this course, she supports Linux servers in her new entry-level IT support role, connecting remotely from her laptop.
 
 **Design approach:** The business outcomes stay as written. Success is set at a beginner level: learners complete each task on their own using a reference sheet, not from memory. Advanced tasks, like mounting a remote file system, run as guided labs in a prepared environment.
 
-**Sequence change:** Package management is taught on Day 1, after file systems, so learners install the software they later manage as services and automate with scripts. All five HLD units are kept.
+**Sequence change:** Package management is taught on Day 1, after file systems, so learners install the software they later manage as services and automate with scripts. All five High Level Design Documents (HLD) units are kept.
 
 ## Time plan
 
 | Day | Block | Hours |
 | --- | --- | --- |
-| Day 1 | Unit 1: Linux philosophy and architecture | 1.75 |
-| Day 1 | Unit 2: File systems | 2.25 |
-| Day 1 | Unit 4: Package management | 1 |
-| Day 1 | Day 1 recap and questions | 0.5 |
-| Day 2 | Unit 3: Utilities, commands and services | 2.5 |
-| Day 2 | Unit 5: Shells, scripting and automation | 2.25 |
+| Day 1 | Unit 1: Linux Philosophy and Architecture | 1.75 |
+| Day 1 | Unit 2: File Systems | 2.25 |
+| Day 1 | Unit 4: Package Management | 1 |
+| Day 1 | Day 1 Recap and Questions | 0.5 |
+| Day 2 | Unit 3: Utilities, Commands and Services | 2.5 |
+| Day 2 | Unit 5: Shells, Scripting and Automation | 2.25 |
 | Day 2 | Capstone | 0.75 |
 | Both days | Breaks (10 minutes each hour) | 1 |
-| **Total training** | | **12** |
-| Both days | Lunch (1 hour each day, not counted in training time) | 2 |
+| **Total Training** | | **12** |
+| Both Days | Lunch (1 hour each day, not counted in training time) | 2 |
 
 Sample day: 9:00 to 4:00, lunch 12:00 to 1:00.
 
-## Unit 1: Linux philosophy and architecture (1.75 hrs)
+## Unit 1: Linux Philosophy and Architecture (1.75 hrs)
 
 **Learning objectives.** Learners will be able to:
 
-1. Explain what Linux is and where Sunflower uses it, in plain language.
+1. Explain what Linux is and where/how Sunflower uses it.
 2. Identify the main parts of a Linux system: kernel, shell, file system and users.
 3. Run basic commands in the terminal and read their output.
 
@@ -48,9 +48,9 @@ Sample day: 9:00 to 4:00, lunch 12:00 to 1:00.
 
 **Tools:** Browser-based sandbox and terminal from the first 15 minutes; `whoami`, `date`, `echo`, `man`
 
-**How we know:** Quick poll on where Linux runs · Learners label a simple system diagram · Hands-on check: run three commands and explain what each returned
+**Knowledge Assessment:** Quick poll on where Linux runs · Learners label a simple system diagram · Hands-on check: run three commands and explain what each returned
 
-## Unit 2: File systems (2.25 hrs)
+## Unit 2: File Systems (2.25 hrs)
 
 **Learning objectives.** Learners will be able to:
 
@@ -62,9 +62,9 @@ Sample day: 9:00 to 4:00, lunch 12:00 to 1:00.
 
 **Tools:** Sandbox terminal · A file system diagram handout · A prepared NFS server set up by the delivery team (guided lab only) · Troubleshooting checklist
 
-**How we know:** Scavenger hunt: find and report the contents of hidden files · Lab: build a project folder structure from a spec · Guided lab: mount a remote share and confirm it with `df -h`
+**Knowledge Assessment:** Scavenger hunt: find and report the contents of hidden files · Lab: build a project folder structure from a spec · Guided lab: mount a remote share and confirm it with `df -h`
 
-## Unit 3: Utilities, commands and services (2.5 hrs)
+## Unit 3: Utilities, Commands and Services (2.5 hrs)
 
 **Learning objectives.** Learners will be able to:
 
@@ -76,22 +76,22 @@ Sample day: 9:00 to 4:00, lunch 12:00 to 1:00.
 
 **Tools:** Sandbox terminal · Sample log files · A practice web service in the sandbox · Command reference sheet
 
-**How we know:** Log hunt: find the error in a sample log · Lab: a service is down, so check its status, restart it and confirm it is running · Exit ticket: when to use `sudo` and when not to
+**Knowledge Assessment:** Log hunt: find the error in a sample log · Lab: a service is down, so check its status, restart it and confirm it is running · Exit ticket: when to use `sudo` and when not to
 
-## Unit 4: Package management (1 hr)
+## Unit 4: Package Management (1 hr)
 
 **Learning objectives.** Learners will be able to:
 
-1. Describe what a Linux distribution and a package manager are.
-2. Search for, install, update and remove software with a package manager.
+1. Describe a Linux distribution and a package manager.
+2. Search for, install, update, and remove software with a package manager.
 
 **Concepts in order:** Distributions (Ubuntu, Red Hat) · What a package is · Package managers (`apt` and `dnf`) · Updating package lists · Installing, updating and removing software
 
 **Tools:** Sandbox terminal (Ubuntu with `apt`) · Comparison handout for `apt` and `dnf`
 
-**How we know:** Lab: install a small tool, use it, then remove it · Quick check: match each distribution to its package manager
+**Knowledge Assessment:** Lab: install a small tool, use it, then remove it · Quick check: match each distribution to its package manager
 
-## Unit 5: Shells, scripting and automation (2.25 hrs)
+## Unit 5: Shells, Scripting and Automation (2.25 hrs)
 
 **Learning objectives.** Learners will be able to:
 
@@ -103,13 +103,13 @@ Sample day: 9:00 to 4:00, lunch 12:00 to 1:00.
 
 **Tools:** Sandbox terminal · `nano` · Script template · Cron cheat sheet
 
-**How we know:** Lab: edit a template script that cleans up old files and run it · Lab: schedule it with `cron` and confirm the schedule with `crontab -l`
+**Knowledge Assessment:** Lab: edit a template script that cleans up old files and run it · Lab: schedule it with `cron` and confirm the schedule with `crontab -l`
 
 ## Capstone (45 min)
 
 Learners work a short ticket queue as Sunflower IT support. One ticket each covers navigation, a remote share, a stopped service, a software install and a cleanup script. Instructors check each ticket against a simple pass/fail rubric. The capstone shows each learner can do every business outcome with the reference sheet in hand.
 
-## Knowledge checks
+## Knowledge Checks
 
 | Type | When | Purpose |
 | --- | --- | --- |
@@ -117,18 +117,18 @@ Learners work a short ticket queue as Sunflower IT support. One ticket each cove
 | Unit labs | End of each unit | Confirm the unit's objectives |
 | Capstone | End of course | Confirm the business outcomes |
 
-## Delivery team needs
+## Delivery Team Needs
 
 - A browser-based Linux sandbox for every learner, tested before day one
 - A prepared NFS server and a practice web service in the sandbox
 - A command reference sheet and troubleshooting checklist for learners
 - A facilitator guide with timings, demo scripts and common errors
 
-## Validation plan
+## Validation Plan
 
 - **Design sign-off:** Sunflower stakeholders review this Detailed Design before build starts
-- **Pilot review:** walk one built lesson through with Sunflower stakeholders and an instructor before full rollout
-- **After delivery:** capstone pass rates and a 30-day check-in on whether learners are using the skills on the job
+- **Pilot review:** Walk one built lesson through with Sunflower stakeholders and an instructor before full rollout
+- **After delivery:** Capstone pass rates and a 30-day check-in on whether learners are using the skills on the job
 
 ## To confirm in discovery
 
